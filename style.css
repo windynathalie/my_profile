@@ -1,0 +1,420 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.navigation-bar {
+    background-color: #3F244D;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.icon{
+    display: none;
+}
+
+.container, .container1, .container2 {
+    display: flex;
+    justify-content: center;
+    columns: 2;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    height: 40px;
+    padding-right: 20px;
+}
+
+.name {
+    height: 25px;
+}
+
+.right-side {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.right-side ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.right-side li {
+    flex: 0 0 auto;
+    padding-right: 20px;
+}
+
+.right-side li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.right-side li a:hover {
+    color: #fda50e;
+}
+
+.right-side li a:focus {
+    color: white;
+    font-weight: 700;
+}
+
+.cta {
+    background-color: #3F244D;
+    color: white;
+    padding-bottom: 150px;
+    margin-top: 55px;
+}
+
+.call-to-action {
+    padding: 20px 0;
+}
+
+.image-description img {
+    height: 250px;
+    margin-left: auto;
+}
+
+.description {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.description button {
+    background-color: #fda50e;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.description button:hover {
+    background-color: #ee9700;
+    cursor: pointer;
+}
+
+.description button a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #473057 !important;
+    padding-bottom: 200px;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+    background-color: white;
+    color: #3F244D;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+}
+
+.about p {
+    line-height: 30px;
+    font-size: 16px;
+}
+
+hr {
+    width: 20%;
+    margin-top: 7px;
+    border-color: #3F244D;
+}
+
+.about h2 {
+    margin: 0;
+}
+
+.interest-section {
+    background-color: #473057;
+    padding-bottom: 50px;
+}
+
+.title h2 {
+    color: white;
+    margin-top: 0;
+    text-align: center;
+}
+
+.title hr {
+    width: 20%;
+    margin-top: 7px;
+    border-color: white;
+}
+
+.container-interest {
+    width: 90%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interest-list {
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.interest-list img {
+    height: 150px;
+}
+
+.left,
+.middle,
+.right {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+.interest-list p {
+    color: white;
+    text-align: center;
+}
+
+.contact-section{
+    background-color: #3F244D;
+    color: white;
+}
+
+.container-contact{
+    width: 90%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+    padding-left: 20px;
+}
+
+.top-side{
+    display: flex;
+}
+
+.get-in-touch{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.feedback{
+    margin: auto;
+}
+
+.feedback button{
+    display: block;
+    background-color: #fda50e;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.feedback button:hover {
+    background-color: #ee9700;
+    cursor: pointer;
+}
+
+textarea{
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.information{
+    display: block;
+}
+
+.name, .location, .email{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.name img, .location img, .email img{
+    height: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.email img{
+    height: 20px;
+}
+
+.name p, .location p, .email a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.bottom-side{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bottom-side img{
+    height: 50px;
+    padding: 0 5px;
+}
+
+.footer{
+    background-color: #473057;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+@media (max-width: 640px) {
+    .navigation-bar {
+        background-color: #3F244D;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        overflow: hidden;
+    }
+    
+    .navigation-bar #links{
+        display: none;
+    }
+
+    .icon{
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-bars{
+        color: white;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 3px solid #331342;
+    }
+
+    .container2 {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none
+    }
+
+    .cta {
+        padding-bottom: 150px;
+        margin-top: 200;
+    }
+
+    .right-side {
+        margin-left: 0;        
+    }
+
+    .right-side ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right-side li {
+        margin: 0.8em 0;
+    }
+
+    .left-side {
+        padding-top: 10px;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        margin: 0 0;
+    }
+
+    .image-description img {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .card {
+        margin-top: -100px;
+    }
+
+    .interest-section {
+        display: flex;
+        padding-top: 30px;
+    }
+
+    .interest-list {
+        display: block;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .left img,
+    .right img,
+    .middle img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top-side{
+        flex-direction: column;
+    }
+
+    .get-in-touch h2{
+        text-align: center;
+    }
+
+    .feedback{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feedback h3{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .feedback button{
+        margin: 10px auto;
+    }
+
+}
